@@ -8,8 +8,6 @@
     --hero-overlay: rgba(0,0,0,0.5);
     --paragraph-font: 'DM Serif Text', serif;
     --nav-link-color: #FFFFFF;
-
-
 }
 
 header {
@@ -20,9 +18,8 @@ header {
     background-color: var(--primary1-color);
 }
 
-body{
+body {
     font-family: var(--paragraph-font);
-    max-width: 0;
     padding: 0;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -32,38 +29,40 @@ nav a {
     margin: 0;
     color: var(--nav-link-color);
     text-decoration: none;
-    
 }
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
     position: relative;
-} 
- header img {
+}
+
+header img {
     height: 50px;
- } 
- nav a:hover {
+}
+
+nav a:hover {
     text-decoration: underline;
- }
- .hero {
+}
+
+.hero {
     position: relative;
     text-align: center;
     color: #FFFFFF;
- }
+}
 
- .hero h1 {
+.hero h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: var(--hero-overlay);
     padding: 1rem;
     border-radius: 5px;
+}
 
-
- }
- article {
+article {
     position: relative;
     padding: 2rem;
     background-color: white;
@@ -71,6 +70,7 @@ nav a {
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 article img {
     float: right;
     margin-left: 1rem;
@@ -78,6 +78,7 @@ article img {
     height: auto;
     border-radius: 5px;
 }
+
 section {
     padding: 2rem;
     margin: 2rem auto;
@@ -85,8 +86,9 @@ section {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 section h2 {
-    color: var(--primary-color);
+    color: var(--primary1-color);
 }
 
 section img {
@@ -98,9 +100,10 @@ section img {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: var(--primary-color);
+    background-color: var(--primary1-color);
     color: white;
 }
+
 footer a {
     margin: 0 0.5rem;
 }
@@ -113,5 +116,3 @@ footer img {
 footer a:hover {
     text-decoration: none;
 }
-
-
