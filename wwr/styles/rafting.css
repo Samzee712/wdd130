@@ -65,7 +65,7 @@ nav a:hover {
 article {
     position: relative;
     padding: 2rem;
-    background-color: white;
+    background-color: #228B22;
     margin: 2rem auto;
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
