@@ -30,9 +30,10 @@ nav a {
     color: #fff;
 }
 h1 {
-    color: steelblue;
-    border-bottom: 25px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
 }
+
 
 img {
     width: 150px;
@@ -89,17 +90,16 @@ header, .grid, footer {
 
 .grid {
     display: grid;
-    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
 }
 
 main {
-    grid-column: 2/3;
-    margin: 1rem;
+    order: 2; 
 }
+
 aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    order: 1; 
 }
+
 
