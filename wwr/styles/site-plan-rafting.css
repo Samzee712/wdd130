@@ -1,16 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-    margin: 0 auto; /* Center the page content */
-}
-
 :root {
     --primary-color: #0056b3;
     --secondary-color: #FF5733;
-    --accent1-color:  #FFFFFF;
+    --accent1-color: #FFFFFF;
     --accent2-color: #FFD700;
     
     --heading-font: 'Young Serif', serif;
@@ -20,6 +13,13 @@ body {
     --nav-link-color: #FFFFFF;
     --nav-hover-link-color: #FF5733;
     --nav-hover-background-color: #FFFFFF;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto; /* Center the page content */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,6 +49,14 @@ nav a {
     padding: 10px 15px;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:link {
+    color: var(--nav-link-color);
+}
+
+nav a:visited {
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
