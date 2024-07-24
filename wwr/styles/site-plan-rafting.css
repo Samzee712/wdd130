@@ -1,15 +1,14 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
-body{
+body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-
+    margin: 0 auto; /* Center the page content */
 }
 
 :root {
-    --primary1-color: #0056b3;
+    --primary-color: #0056b3;
     --secondary-color: #FF5733;
     --accent1-color:  #FFFFFF;
     --accent2-color: #FFD700;
@@ -21,44 +20,46 @@ body{
     --nav-link-color: #FFFFFF;
     --nav-hover-link-color: #FF5733;
     --nav-hover-background-color: #FFFFFF;
-
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary1-color);
+    color: var(--primary-color);
 }
 
 header {
     padding: 20px;
     background-color: var(--accent1-color);
-
+    text-align: center;
 }
 
 p {
-    padding: 25px;
+    padding: 10px 0;
 }
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
     display: flex;
+    justify-content: center;
+    background-color: var(--nav-background-color);
+    padding: 10px 0;
 }
 
 nav a {
-    display: block;
     color: var(--nav-link-color);
+    padding: 10px 15px;
     text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-
+    color: var(--nav-hover-link-color);
 }
 
+footer {
+    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
